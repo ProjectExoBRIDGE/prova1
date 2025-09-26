@@ -1,0 +1,15 @@
+[project]
+name = "prova1"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "BRIDGE_GROUP", email = "stefano.mazzani@mail.polimi.it"},
+]
+dependencies = ["pandas>=2.3.2"]
+requires-python = "==3.13.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
